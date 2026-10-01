@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+nav {
+    background-color: #d4af37;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+    color: #d4af37;
+}
+
+header p {
+    font-size: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main h2 {
+    color: #111;
+}
+
+main p {
+    font-size: 18px;
+}
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.video {
+    text-align: center;
+    margin-top: 20px;
+    color: #6e5c21;
+}
+.video button {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.video button:hover {
+    background-color: #5c4d18;
+}
+section.imagem  {
+    background-color: #d4af37;
+    color: rgba(255, 255, 255, 0);
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
